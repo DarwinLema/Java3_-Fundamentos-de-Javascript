@@ -1,22 +1,36 @@
 <html>
     <head>
         <title>Venta de Frutas y Verduras</title>
+         <!-- Enlace a la hoja de estilos -->
         <link rel="stylesheet" href="css/c01.css"/>
     </head>
 
     <body>
-            <h1>Bienvenidos a SuperFrutas</h1>
-            <script src="js/saludo.js"></script>            
-            <p>
-                <em>Productos Disponibles para la venta</em>
-                <div id="cost">Costo:</div>
-            </p>
-            <div class="message"> Existencias en bodega
-                <span id="stock"></span>
-            </div>
-            <div class="message">Enviado a domicilio
-                <span id="envio"></span>
-            </div>
-            <script src="js/stock.js"></script>  
+        <h1>Bienvenidos a SuperFrutas</h1>
+         <!-- Llamado del script saludo  -->
+        <script src="js/saludo.js"></script>
+
+        <p>
+            <em>Productos Disponibles para la venta</em>
+            <div id="cost">Costo:</div>
+        </p>
+         <!-- Llamado del script factura -->
+        <script src="js/factura.js"></script>
+
+        <div class="message">Existencias en bodega
+            <span id="stock"></span>
+        </div>
+        <div class="message">Enviado a domicilio
+            <span id="envio"></span>
+        </div>
+         <!-- Llamado del script stock -->
+        <script src="js/stock.js"></script>
+         <!-- Llamado del script clientes, como el script esta al final del body el nombre el cliente saldra al final -->
+        <script src="js/clientes.js"></script>  
+         <!-- LLamado de las funciones establecidas dentro de clientes -->
+        <script>
+            saludo();
+            bienvenida(persona.nombre);
+        </script>
     </body>
-</html>
+</html> 

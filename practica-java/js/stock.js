@@ -3,7 +3,7 @@ var enviado;
 existencias = true;
 enviado=false;
 
-var elstock=document.getElementById('Stock');
+var elstock=document.getElementById('stock');
 elstock.className=existencias;
 
 var elenvio=document.getElementById('envio');

@@ -95,3 +95,26 @@ html{
     min-height:100%;}
 body{
     min-height:100%;}
+
+.message {
+    font-weight: bold;
+    line-height: 1.5em;
+    height: 2em;
+    display: block;
+    clear: left;
+    min-width: 10em;
+    width: 320px;
+    margin-left: 50px
+}
+
+.true, .false {
+    background: url("../images/tick-cross.png");
+    display: block;
+    float: right;
+    height: 25px;
+    width: 25px;
+}
+
+.false {
+    background-position: 0 -25px;
+}
